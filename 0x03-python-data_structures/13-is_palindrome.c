@@ -1,8 +1,10 @@
-*
- * File: 13-is_palindrome_revised.c
- * Auth: [Your Name]
+/*
+ * File: 13-is_palindrome.c
+ * Auth: Azizipho Madolo
  */
 
+#include <stdio.h>
+#include <stdlib.h>
 #include "lists.h"
 
 listint_t *reverse_listint(listint_t **head);
