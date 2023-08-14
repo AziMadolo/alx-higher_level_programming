@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 #1_element_at.py
 
-def retrieve_element(lst, index):
+def element_at(my_list, idx):
     """Retrieve an element from a list."""
-    if index < 0 or index > (len(lst) - 1):
+    if idx < 0 or idx > (len(my_list) - 1):
         return None
-    return lst[index]
+    return my_list[idx]
