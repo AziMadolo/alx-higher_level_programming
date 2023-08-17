@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def calculate_subtraction(nums):
     subtraction_value = 0
     max_num = max(nums)
