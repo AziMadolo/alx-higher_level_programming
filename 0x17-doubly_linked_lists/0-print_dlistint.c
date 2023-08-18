@@ -1,10 +1,9 @@
-#include "lists.h"
-#include <stddef.h>
+#include <stdlib.h>
 #include <stdio.h>
+#include "lists.h"
 
 /**
  * print_dlistint - Prints all the elements of a dlistint_t list.
- *
  * @h: Head of the list.
  * Return: The number of nodes.
  */
